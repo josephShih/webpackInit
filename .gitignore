@@ -1,0 +1,26 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env
+config/development.js
+config/local.js
+config/test.js
+npm-debug.log*
+report/
+s3Folder
+out
+logs
+
+/static/activityCategory.json
+/static/jobCategory.json
