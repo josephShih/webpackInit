@@ -7,7 +7,7 @@
     "build": "NODE_ENV=production webpack",
     "dev": "NODE_ENV=development webpack",
     "run:dev": "if test \"$NODE_ENV\" = \"development\" ; then NODE_ENV=development nodemon build/main.js ; fi ",
-    "debug": "env DEBUG='api:*' & npm run dev",
+    "debug": "env DEBUG='api:*' npm run dev",
     "debug:windows": "set DEBUG=api:* & npm run dev",
     "localEnv": "node bin/update-local-config.js 104z-local-env-config 104z-resume-clinic-api/development.js ./config/development.js",
     "start": "cross-env NODE_ENV=production node build/main.js",
